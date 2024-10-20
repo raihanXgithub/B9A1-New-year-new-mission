@@ -168,3 +168,51 @@ header .greeting-section {
   border-radius: 5px;
   font-weight: bold;
 }
+
+/* coming offer section related styles */
+.coming-offer-section {
+  display: flex;
+  gap: 80px;
+}
+
+.coming-offer-intro {
+  margin-top: 50px;
+}
+
+.coming-offer-title {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.coming-offer-info {
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+div .coming-offer-description {
+  line-height: 20px;
+  font-size: 13px;
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+.coming-offer-img {
+  margin-top: 40px;
+  width: 180px;
+  /* border-radius: 4px solid red; */
+  border: 5px -5px solid red;
+}
+
+.coming-offer-outro {
+  margin-top: 40px;
+}
+
+.year {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.new-year-img {
+  width: 100px;
+}
