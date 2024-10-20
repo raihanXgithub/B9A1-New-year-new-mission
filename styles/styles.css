@@ -22,6 +22,10 @@ footer {
   color: #fff;
 }
 
+.color-red {
+  color: red;
+}
+
 /* greeting related styles */
 header .greeting-section {
   background-image: url("../images/banners/Banner Image.png");
@@ -61,4 +65,29 @@ header .greeting-section {
 
 .greeting-description {
   font-size: 40px;
+}
+
+/* discount section related styles */
+.discount-section {
+  text-align: center;
+  /* line-height: 40px; */
+}
+
+.discount-amount {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.discount-deal {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.discount-categorie {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.discount-section .new-year-img {
+  width: 600px;
 }
