@@ -6,3 +6,52 @@
 }
 
 /* common styles */
+section {
+  margin: 50px 100px 100px 100px;
+}
+
+header,
+footer {
+  color: #fff;
+}
+
+/* greeting related styles */
+header .greeting-section {
+  background-image: url("../images/banners/Banner Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 200px 300px 150px;
+  position: relative;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+}
+
+.greeting-section::before {
+  content: "";
+  position: absolute;
+  top: 2.5px;
+  right: 2.5px;
+  bottom: 2.5px;
+  left: 2.5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.greeting-title,
+.greeting-description {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.greeting-title {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.greeting-description {
+  font-size: 40px;
+}
