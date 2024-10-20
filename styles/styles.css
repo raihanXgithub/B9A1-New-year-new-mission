@@ -17,8 +17,7 @@ section {
   margin: 50px 100px 100px 100px;
 }
 
-header,
-footer {
+.color-white {
   color: #fff;
 }
 
@@ -90,4 +89,13 @@ header .greeting-section {
 
 .discount-section .new-year-img {
   width: 600px;
+}
+
+/* party section related styles */
+.party-section {
+  background-image: url("../images/banners/Vectorrr.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding: 80px 400px 180px 80px;
 }
