@@ -234,13 +234,12 @@ header .greeting-section {
   height: 100%;
   width: 500px;
   background-image: url("../images/icons/Group 44.png"),
-    url("../images/Rectangle 1.png"), url("../images/icons/Group 75.png"),
+    url("../images/Rectangle 1.png"), url("../images/icons/Group 96.png"),
     url("../images/Rectangle 2.png");
 
-  background-size: 120px, 26.8%, 400px, 100%;
-  background-position: center, right top, left, bottom center;
+  background-size: 30%, 28%, 22%, 100%;
+  background-position: 500px center, right top, left 250px center, bottom center;
   background-repeat: no-repeat;
-  margin-bottom: 100px;
+  margin: 40px 100px;
   padding: 200px;
-  border: 1px solid red;
 }
