@@ -30,6 +30,7 @@ section {
   font-weight: 500;
   line-height: 16px;
   margin-bottom: 22px;
+  color: #7e7c82;
 }
 
 /* greeting related styles */
@@ -239,4 +240,40 @@ header .greeting-section {
   background-repeat: no-repeat;
   margin: 40px 0px;
   padding: 200px;
+}
+
+/* portfolio section related styles */
+.portfolio-info,
+.portfolio-title {
+  margin-bottom: 12px;
+}
+
+.portfolio-info {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.portfolio-title {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.portfolio-image {
+  width: 32%;
+}
+
+.portfolio-product-images {
+  width: 100%;
+}
+
+.port-mar-bottom {
+  margin-bottom: 19.5px;
+}
+
+.port-mar-right {
+  margin-right: 19.5px;
+}
+
+.port-mar-left {
+  margin-left: 23px;
 }
