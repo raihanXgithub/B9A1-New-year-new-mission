@@ -214,7 +214,7 @@ header .greeting-section {
 /* holiday discount related styles */
 .holi-disc-intro {
   text-align: center;
-  margin: 0 300px;
+  margin: 0 200px;
 }
 
 .holi-disc-info {
@@ -230,16 +230,13 @@ header .greeting-section {
 }
 
 .holi-disc-images {
-  margin-left: 100px;
-  height: 100%;
-  width: 500px;
   background-image: url("../images/icons/Group 44.png"),
     url("../images/Rectangle 1.png"), url("../images/icons/Group 96.png"),
     url("../images/Rectangle 2.png");
 
   background-size: 30%, 28%, 22%, 100%;
-  background-position: 500px center, right top, left 250px center, bottom center;
+  background-position: 600px center, right top, left 250px center, bottom center;
   background-repeat: no-repeat;
-  margin: 40px 100px;
+  margin: 40px 0px;
   padding: 200px;
 }
