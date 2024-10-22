@@ -14,6 +14,7 @@
 }
 
 section {
+  border-radius: 10px;
   margin: 50px 100px 100px 100px;
 }
 
@@ -42,7 +43,6 @@ header .greeting-section {
   padding: 200px 300px 150px;
   position: relative;
   height: 100%;
-  border-radius: 10px;
   border: none;
 }
 
@@ -108,7 +108,6 @@ header .greeting-section {
   height: 10px, 100%;
   padding: 160px 300px 80px 60px;
   border: none;
-  border-radius: 10px;
   background-repeat: no-repeat;
 }
 
@@ -161,7 +160,6 @@ header .greeting-section {
   line-height: 36px;
   font-weight: 600;
   border: none;
-  border-radius: 10px;
 }
 
 .invite-btn {
@@ -260,20 +258,64 @@ header .greeting-section {
 
 .portfolio-image {
   width: 32%;
+  height: 10%;
 }
 
 .portfolio-product-images {
   width: 100%;
+  /* background-color: greenyellow; */
+}
+
+.portfolio-product-images img {
 }
 
 .port-mar-bottom {
-  margin-bottom: 19.5px;
+  margin-bottom: 19.2px;
 }
 
 .port-mar-right {
-  margin-right: 19.5px;
+  margin-right: 19.2px;
 }
 
 .port-mar-left {
-  margin-left: 23px;
+  margin-left: 22px;
+}
+
+/* subscribe section related styles */
+.subscribe-section {
+  text-align: center;
+  line-height: 50px;
+  background-color: #fff2f2;
+  padding: 70px 0;
+}
+
+.subscribe-icon {
+  width: 100px;
+}
+
+.subscribe-title {
+  font-size: 30px;
+}
+
+.sub-email-field {
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+}
+
+input {
+  border: none;
+  padding: 15px 40px;
+  font-size: 14px;
+}
+
+input[type="email"] {
+  border-radius: 20px 0 0 20px;
+}
+
+input[type="button"] {
+  background-color: red;
+  padding-left: 30px;
+  margin-left: 0;
+  border-radius: 0 20px 20px 0;
 }
