@@ -32,6 +32,7 @@ section {
   line-height: 16px;
   margin-bottom: 22px;
   color: #7e7c82;
+  font-family: inter, sans-serif;
 }
 
 /* greeting related styles */
@@ -318,4 +319,50 @@ input[type="button"] {
   padding-left: 30px;
   margin-left: 0;
   border-radius: 0 20px 20px 0;
+}
+
+/* footer related styles */
+.footer-section {
+  background-color: black;
+  padding: 100px;
+  margin: 0;
+  border-radius: 0;
+  color: white;
+  font-weight: 400;
+}
+
+.footer-info {
+  display: flex;
+  gap: 700px;
+}
+
+.flex-phn-web {
+  display: flex;
+  gap: 10px;
+  line-height: 36px;
+  align-items: center;
+}
+
+.footer-phn-web-icon {
+  width: 22px;
+}
+
+.footer-social-icons {
+  margin: 60px 0;
+  border: 1px solid rgb(128, 128, 128, 0.5);
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-social-icons img {
+  margin: 20px 0;
+  width: 40px;
+}
+
+.footer-info .un-sub {
+  margin-left: 120px;
 }
