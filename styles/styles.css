@@ -154,7 +154,7 @@ header .greeting-section {
 
 /* invitation section related styles */
 .invite-section {
-  background-color: #ffe8e8;
+  background: linear-gradient(180deg, #ffe8e8, white);
   padding: 100px;
   font-size: 22px;
   text-align: center;
